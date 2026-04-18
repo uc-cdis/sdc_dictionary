@@ -148,7 +148,7 @@ properties:
     type: string
     description: ABO Blood Group
   using_hydroxyurea:
-    description: 	Using Hydroxyurea?
+    description: Using Hydroxyurea?
     enum:
       - "Yes"
       - "No"
