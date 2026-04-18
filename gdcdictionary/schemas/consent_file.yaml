@@ -26,7 +26,7 @@ links:
   - exclusive: false
     required: true
     subgroup:
-      - name: core_metadata_collection
+      - name: core_metadata_collections
         backref: consent_file
         label: data_from
         target_type: core_metadata_collection
@@ -76,7 +76,7 @@ properties:
     description: The text term describing the file format of the consent file, for example, PDF, XLSX, JPEG, PNG, TSV, etc.
     type: string
 
-  core_metadata_collection:
+  core_metadata_collections:
     description: The submitter_id or id of the core_metadata_collection to which the consent file belongs, i.e., a link to a record in the parent node.
     $ref: "_definitions.yaml#/to_one"
 
