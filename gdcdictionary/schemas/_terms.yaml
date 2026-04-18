@@ -40,6 +40,10 @@ file_type:
   description: >
     Specific content type of the data file. This version of the property is used for interoperation purposes.
 
+ga4gh_drs_uri:
+  description: >
+    DRS URI as defined by GA4GH DRS spec for pointers to file objects.
+
 md5sum:
   description: >
     The 128-bit hash value expressed as a 32 digit hexadecimal number used as a file's digital
@@ -839,10 +843,6 @@ UUID:
 #     cde_id: 5432607
 #     cde_version: 1.0
 #     term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=5432607&version=1.0"
-
-# ga4gh_drs_uri:
-#   description: >
-#     DRS URI as defined by GA4GH DRS spec for pointers to file objects.
 
 # gender:
 #   description: >
