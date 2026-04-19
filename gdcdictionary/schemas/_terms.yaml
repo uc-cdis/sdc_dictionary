@@ -12,6 +12,18 @@ data_file_error_type:
   description: >
     Type of error for the data file object.
 
+data_category:
+  description: >
+    Broad categorization of the contents of the data file.
+
+data_format:
+  description: >
+    Format of the data files.
+
+data_type:
+  description: >
+    Specific content type of the data file.
+
 datetime:
   description: >
     A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
@@ -557,18 +569,6 @@ UUID:
 #     cde_id: 5432606
 #     cde_version: 1.0
 #     term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=5432606&version=1.0"
-
-# data_category: # TOREVIEW
-#   description: >
-#     Broad categorization of the contents of the data file.
-
-# data_format: # TOREVIEW
-#   description: >
-#     Format of the data files.
-
-# data_type: # TOREVIEW
-#   description: >
-#     Specific content type of the data file.
 
 # days_to_birth:
 #   description: >
