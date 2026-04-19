@@ -81,5 +81,5 @@ properties:
     $ref: "_definitions.yaml#/to_one"
 
   subject:
-    jdescription: The submitter_id or id of the subject to which the consent file belongs, i.e., a link to a record in the parent node.
+    description: The submitter_id or id of the subject to which the consent file belongs, i.e., a link to a record in the parent node.
     $ref: "_definitions.yaml#/to_one"
