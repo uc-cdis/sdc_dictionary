@@ -23,7 +23,7 @@ systemProperties:
 required:
   - code 
   - name 
-  - program
+  - programs
   - dbgap_accession_number
 
 uniqueKeys:
@@ -31,8 +31,8 @@ uniqueKeys:
   - [ code ]
 
 links:
-  - name: program
-    backref: project
+  - name: programs
+    backref: projects
     label: member_of
     target_type: program
     multiplicity: many_to_one
@@ -141,7 +141,7 @@ properties:
     type: string
     description: "The dbgap accession number provided for the project."
 
-  program:
+  programs:
     $ref: "_definitions.yaml#/to_one"
     description: >
       Indicates that the project is logically part of the indicated project.
